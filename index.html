@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name="google-site-verification" content="b3EiLibz9nMl3Qq8-mPnHS_YRE_r4aev6XARh7xltKY" />
 
   <title>Ivan Derianto</title>
 
@@ -159,7 +160,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Facial Authentication</h4>
-            <p class="text-muted">Face recognition based authentication on Ubuntu and Windows</p>
+            <p class="text-muted">YoloV3 object detection based facial authentication</p>
           </div>
         </div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
@@ -602,9 +603,17 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Facial Authentication</h2>
-                <p class="item-intro text-muted">Face recognition based authentication on Ubuntu and Windows</p>
+                <p class="item-intro text-muted">YoloV3 object detection based facial authentication. View C++ code on my github</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Description</p>
+                <p>This program will detect our face after login to Windows (Ubuntu version coming soon), then detecting our face for 10 seconds. If face is detected, the program will be closed and you can continue your activity, otherwise it will foce user log off.</p><br>
+				<video width="960" height="540" controls autoplay muted loop>
+				  <source src="img/IvanDetector.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<p align ="left">Important steps :<br>
+				• Dataset is annotated using <a href="https://github.com/ivder/Yolo_MultiClass_LabelTool" target="_blank">labelling tool from my github repo</a><br>
+				• YoloV3 is forked from <a href="https://github.com/AlexeyAB/darknet" target="_blank">this repository</a><br>
+				</p>
                 <ul class="list-inline">
                   <li>Pogramming Language : C++, C</li>
 				  <li>IDE : Visual Studio 2017<li>
