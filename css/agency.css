@@ -199,7 +199,11 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 500px;
+<<<<<<< HEAD
+    padding-bottom: 20px;
+=======
     padding-bottom: 0px;
+>>>>>>> d7eb3b42d0093123c79f7582ecf43397a5a75e0a
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 30px;
